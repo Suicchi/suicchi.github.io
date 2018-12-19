@@ -1,6 +1,7 @@
 .my-panel{
     height: 100%;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,6 @@
   
   .my-panel h1{
     margin: 0;
-    padding: 0;
     font-size: 20px;
     padding: 10px 2px;
     
@@ -25,3 +25,13 @@
     max-width: 170px;
   }
   
+
+  @media all and (max-width:800px){
+    .my-panel{
+      padding-top: 5%;
+      padding-bottom: 0;
+      flex: 0 1 100%;
+      justify-content: flex-start;
+      margin-bottom: 0;
+    }
+  }
