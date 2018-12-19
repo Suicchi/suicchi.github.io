@@ -9,6 +9,7 @@ const Me = () =>{
             <h1>Portfolio of</h1>
             <img src={myphoto} alt="Me" className="img-rounded" />
             <h1>Md. Reazul Islam Bhuiyan</h1>
+            <p>reazulislam@acm.org</p>
             {/* <p>Software Developer</p> */}
         </div>        
     )
