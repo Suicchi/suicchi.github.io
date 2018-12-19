@@ -1,0 +1,12 @@
+.works{
+    display: flex;
+    flex-direction: column;
+}
+
+.works > div:nth-child(odd){
+    background-color: #ccc;
+}
+
+.works > div{
+    padding: 5%;
+}
