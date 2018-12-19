@@ -20,3 +20,9 @@ class App extends Component {
 }
 
 export default App;
+
+
+/**
+ * Deployed to github pages using yarn the following instructions
+ * https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka
+ */
